@@ -1,0 +1,322 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Bree Serif', serif;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+}
+
+/* Navigation Bar */
+#logo{
+  font-family: 'Nova Mono', monospace;
+  color: #837f7f;
+  margin-left: 120px;
+  font-size: 35px;
+  height: 60px;
+  line-height: 60px;
+  letter-spacing: 10px;
+}
+#logo:hover{
+  color: #0acdab;
+}
+nav{
+  height: 60px;
+  width: 100%;
+  position: fixed;
+  background-color: white;
+}
+nav ul{
+  float: right;
+  padding-right: 120px;
+}
+nav li{
+  display: inline-block;
+  line-height: 60px;
+  list-style: none;
+}
+.menu{
+  color: #837f7f;
+  font-size: 18px;
+  padding-right: 50px;
+}
+.menu:hover{
+  color: #0acdab;
+}
+.menubtn{
+  border: 2px solid white;
+  background-color: #0acdab;
+  color: white;
+  padding: 8px 9px 10px 9px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -o-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+}
+.menubtn:hover{
+  color: white;
+  background-color: #10e4bf;
+}
+
+.clear{
+  clear: both;
+}
+
+/* Header */
+.content{
+  width: 1100px;
+  margin: 0 auto;
+  /*padding-top: 70px;*/
+  /*background-color: #E9EBEE;*/
+}
+.konten{
+  width: 550px;
+  float: right;
+  margin: 0 auto;
+}
+header{
+  padding-top: 90px;
+  height: 650px;
+}
+header p{
+  text-align: center;
+}
+#gambar1{
+  width: 600px;
+  padding-left: 100px;
+}
+#p_h1{
+  font-family: 'Open Sans', serif;
+  font-size: 50px;
+  padding-top: 40px;
+}
+#p_h1 span{
+  font-weight: bolder;
+  font-size: 55px;
+}
+#p2{
+  color: #837f7f;
+  padding-top: 10px;
+  font-family: 'Open Sans', serif;
+  font-size: 20px;
+}
+#p2 span{
+  color: black;
+  font-family: 'Open Sans', serif;
+  font-weight: bold;
+}
+
+/* About */
+
+#about{
+  background-color: #363636;
+  color: white;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  height: 700px;
+  /*border: 15px solid #00FFFF;*/
+}
+#about h1{
+  font-size: 75px;
+  padding-top: 20px;
+}
+#about h2{
+  text-align: left;
+  font-size: 30px;
+}
+.garis{
+  width: 227px;
+  height: 2px;
+  background-color: #0acdab;
+  margin: 10px 0 30px 0;
+}
+#tulisan{
+  font-size: 16px;
+}
+#about p{
+  line-height: 30px;
+  text-align: justify;
+  font-family: 'Open Sans', serif;
+}
+#about ul, li{
+  font-family: 'Open Sans', serif;
+  list-style: inside;
+}
+#gambar2{
+  width: 310px;
+  border: 1px solid black;
+  box-shadow: 0 0 5px 5px #666;
+  border-radius: 10px;
+  margin: 120px 0 0 175px;
+}
+/* Skills */
+#skill{
+  background-image: url('assets/bg_skill.jpg');
+  background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  height: 700px;
+  color: white;
+  padding-top: 50px;
+}
+#skill h1{
+  font-size: 90px;
+  text-align: center;
+  letter-spacing: 5px;
+}
+#skill h2{
+  text-align: center;
+  font-size: 23px;
+  text-decoration: underline;
+  padding-top: 6px;
+}
+#luar{
+  position: relative;
+  padding-top: 30px;
+}
+#picFE{
+  width: 45px;
+  display: inline-block;
+  float: left;
+  position: absolute;
+  left: 570px;
+}
+#lambangskill{
+  width: 900px;
+  height: 350px;
+  display: block;
+  margin: 0 auto;
+}
+#skill h3{
+  text-align: center;
+  letter-spacing: 4px;
+  font-size: 23px;
+}
+
+/* Contact */
+#contact{
+    background: url('assets/contact 2.jpg') no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    height: 700px;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+}
+#contact h1{
+  font-size: 60px;
+}
+#garis2{
+  width: 100px;
+  height: 2.5px;
+  background-color: #0acdab;
+  margin: 0 auto 15px auto;
+}
+#form{
+  margin-top: 20px;
+}
+.form{
+  display: block;
+  margin: 15px auto 30px auto;
+  background: transparent;
+  border: none;
+  border-bottom: 1.5px solid white;
+  outline: none;
+  width: 350px;
+  color: white;
+}
+textarea{
+  display: block;
+  height: 30px;
+  margin: 15px auto 30px auto;
+  background: transparent;
+  border: none;
+  border-bottom: 1.5px solid white;
+  outline: none;
+  resize: none;
+  color: white;
+  text-decoration: none;
+}
+textarea:focus{
+  height: 100%;
+  border: 3px solid #0acdab;
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+  overflow: visible;
+}
+input:focus{
+  border: 2px solid #0acdab;
+  color: white;
+  font-size: 15px;
+}
+label{
+  font-size: 16px;
+}
+#form button{
+  background: transparent;
+  color: #0acdab;
+  border: 2px solid #0acdab;
+  font-size: 23px;
+  width: 250px;
+  letter-spacing: 2px;
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius: 5px;
+  padding: 5px 5px 8px 5px;
+}
+#form button:hover{
+  background-color: #0acdab;
+  color: white;
+}
+
+/* Footer */
+footer{
+  background-color: #1C1C1C;
+  text-align: center;
+  padding: 50px 0 50px 0;
+}
+footer p{
+  font-size: 20px;
+}
+#sosmed{
+padding-top: 10px;
+margin: 0 auto;
+}
+#sosmed img{
+  width: 50px;
+  padding-left: 10px;
+}
+.garis3{
+  margin: 20px auto;
+  width: 230px;
+  height: 2px;
+  background-color: #0acdab;
+}
+footer span{
+  font-size: 30px;
+  color: white;
+}
+#credit{
+  font-size: 20px;
+  color: #939090;
+}
+footer a{
+  color: #939090;
+}
+footer a:hover{
+  text-decoration: underline;
+  color: white;
+}
